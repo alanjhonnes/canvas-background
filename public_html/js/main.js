@@ -28,6 +28,9 @@ $( window ).load(function() {
     //Update stage will render next frame
     stage.update();
 
+    $(window).resize(function(){
+      
+    }).resize();
 
   //requestAnimFrame(update);
 
